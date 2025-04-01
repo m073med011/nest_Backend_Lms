@@ -14,9 +14,6 @@
       }
     ],
     "build": {
-      "env": {
-        "ENABLE_FILE_SYSTEM_API": "1"
-      },
-      "command": "npm run build"
+      "command": "npm install && npm run build"
     }
   }
